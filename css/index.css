@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #e6e6e6
+}
+
+header, .main, footer {
+	width:90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+header nav {
+	background: #000;
+	overflow:hidden;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #aaa;
+	font-family: longhaul;
+	text-decoration: none; 
+}
+
+header nav ul li a:hover {
+	background: #AE9442;
+	color: #fff;
+}
+
+.loginpanel {
+	width: 30%;
+	float: left;
+	background: #000;
+	color: #aaa;
+	font-family: forte;
+}
+
+form {
+	margin: 10px;
+	padding: 10px;
+}
+
+input {
+	margin-bottom: 20px;
+	padding: 5px;
+	width: 70%
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border:1px solid #000;
+	background: #3A3A3A;
+	color: #aaa;
+}
+
+input:focus {
+	border:1px solid #AE9442;
+}
+
+
+input[type="submit"] {
+	margin-bottom: 0;
+	background: #000
+	color: #aaa;
+	border:none;
+}
+
+input[type="submit"]a:hover {
+	background: #fff;
+	cursor: pointer;
+}
+
+footer {
+	background: #000;
+	color: #AE9442;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+	font-family: forte;
+}
